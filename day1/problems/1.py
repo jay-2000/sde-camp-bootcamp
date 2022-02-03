@@ -7,7 +7,7 @@ n = input()
 #float input
 n = float(input())
 
-#there is no double data type in python
+# no double data type exists in python
 
 #array input in one line
 arr = list(map(int,input().split().strip()))
