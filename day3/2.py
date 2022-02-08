@@ -1,12 +1,8 @@
-# Read the input
-n = int(input())
-
-def rec(n):
-    if n==0:
-        print(0)
+i = 1
+while i<=100:
+    if i == 100:
+        print(i)
+        break
     else:
-        print(-n)
-        rec(n-1)
-        print(n)
-
-rec(n)
+        print(i)
+        i += 1
